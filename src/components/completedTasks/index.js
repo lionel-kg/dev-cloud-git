@@ -9,9 +9,9 @@ const CompletedTasks = () => {
     return (
         <div>
             <h2>Tâches terminées</h2>
-            <ul>
+            <ul >
                 {completedTasks.map(task => (
-                    <li key={task.id}>
+                    <li key={task.id} >
                         {task.text}
                     </li>
                 ))}

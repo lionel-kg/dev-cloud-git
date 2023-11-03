@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompletedTasks does not render uncompleted tasks 1`] = `
+<div>
+  <h2>
+    Tâches terminées
+  </h2>
+  <ul />
+</div>
+`;
+
+exports[`CompletedTasks matches snapshot with no completed tasks 1`] = `
+<div>
+  <div>
+    <h2>
+      Tâches terminées
+    </h2>
+    <ul />
+  </div>
+</div>
+`;
+
+exports[`CompletedTasks ne rend rien en l'absence de tâches terminées 1`] = `
+<div>
+  <h2>
+    Tâches terminées
+  </h2>
+  <ul />
+</div>
+`;
